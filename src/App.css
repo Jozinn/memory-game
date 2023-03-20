@@ -1,0 +1,45 @@
+body {
+  color:darkgoldenrod;
+  background: linear-gradient(black, green);
+  font-family: Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 1em;
+}
+
+.cards {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 4;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card {
+  background-color: greenyellow;
+  color: white;
+  border-radius: 1em;
+  font-size: 20px;
+  width: 150px;
+  height: 200px;
+  padding: 0.5em;
+}
+
+.card img {
+  object-fit: contain;
+}
+
+.card p {
+  margin: 1.2em 0;
+}
+
+.card:hover {
+  box-shadow: 0 0 40px darkgoldenrod;
+}
